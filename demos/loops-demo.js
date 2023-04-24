@@ -22,3 +22,17 @@ const countdown = [1, 2, 3, 4, 5];
 for (let index = countdown.length - 1; index >= 0; index--) {
   console.log(countdown[index]);
 }
+
+//for loops guided practice
+
+const string = "There once was a donkey named Eeyore.";
+
+let counter = 1;
+
+for (let i = 0; i < string.length; i++) {
+  if (string[i] === "e") {
+    counter++;
+  }
+}
+
+console.log("Number of 'e' in sentence is" + " " + counter);

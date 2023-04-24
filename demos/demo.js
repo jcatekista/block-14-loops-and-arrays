@@ -26,3 +26,16 @@ console.log(
   "I expect 'apple' to be at beginning of array:",
   fruits.unshift("apple")
 );
+
+//Guided practice:
+//create array with Honda, Toyota, Ford, Subaru
+const cars = ["Honda", "Toyota", "Ford", "Subaru"];
+console.log("Cars array:", cars);
+// Change array using array methods to:
+// "Hyundai", "Toyota", "Mercedes", "Ford", "Audi"
+cars.pop();
+cars.pop();
+cars.push("Mercedes", "Ford", "Audi");
+cars.shift();
+cars.unshift("Hyundai");
+console.log(cars);
